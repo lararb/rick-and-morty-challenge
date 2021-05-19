@@ -5,7 +5,7 @@ where the user can see and search different characters of the series.
 <br>
 In each card displayed, the user can filter results (by status, gender and species) and by clicking on 'more info' button,
 the user can see a new page with more information about the character.
-The app link is: https://lararb.github.io/beezy-challenge/
+The app link is: https://lararb.github.io/rick-and-morty-challenge/
 
 ## Installation
 To install required dependencies run:
