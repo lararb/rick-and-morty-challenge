@@ -4,7 +4,7 @@
   .Header {
     height: 80px;
 
-    @media (max-width: 360px) {
+    @media all and (max-width: 479px) {
       height: 200px;
     }
   }
