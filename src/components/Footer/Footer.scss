@@ -1,0 +1,55 @@
+.FooterWrapper {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #24282f;
+  box-shadow: 0 -10px 10px -10px black;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .FooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+
+    & span {
+      color: white;
+      background: #cd7fb5;
+      padding: 10px;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      font-weight: bold;
+    }
+
+    .Button {
+      background-color: #52beba;
+      border: none;
+      border-radius: 3px;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      outline: none;
+
+      &:disabled {
+        background-color: grey;
+        cursor: not-allowed;
+        &:hover {
+          background-color: grey;
+          color: white;
+          font-weight: normal;
+        }
+      }
+
+      &:hover {
+        background-color: white;
+        color: #cd7fb5;
+        font-weight: bold;
+      }
+    }
+  }
+}

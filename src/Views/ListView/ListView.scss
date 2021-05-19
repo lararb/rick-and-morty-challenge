@@ -1,0 +1,13 @@
+.List {
+  height: 100%;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+
+  @media (max-width: 360px) {
+    width: 100%;
+  }
+}

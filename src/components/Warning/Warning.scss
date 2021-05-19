@@ -1,0 +1,23 @@
+.Warning {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .WarningButton {
+    padding: 15px;
+    background-color: #24282f;
+    color: #cd7fb5;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    &:hover {
+      color: #52beba;
+      font-weight: bold;
+    }
+  }
+}

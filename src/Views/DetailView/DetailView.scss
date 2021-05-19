@@ -1,0 +1,70 @@
+.DetailWrapper {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .DetailContainer {
+    background-color: white;
+    width: 600px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+
+    .DetailTitleContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .DetailIcon {
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+      }
+    }
+
+    .DetailText {
+      text-align: left;
+      font-size: 14px;
+      margin: 5px 0;
+      & span {
+        font-weight: bold;
+        margin-right: 7px;
+      }
+    }
+
+    .EpisodesContainer {
+      text-align: left;
+      margin-top: 40px;
+
+      .EpisodeList {
+        max-height: 350px;
+        padding: 0;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+
+        .EpisodeItem {
+          list-style: none;
+          font-size: 14px;
+          cursor: default;
+          margin: 3px 0;
+        }
+      }
+    }
+
+    .Button {
+      background-color: transparent;
+      border: 1px solid grey;
+      padding: 10px;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        color: white;
+        font-weight: bold;
+        background-color: #24282f;
+      }
+    }
+  }
+
+}

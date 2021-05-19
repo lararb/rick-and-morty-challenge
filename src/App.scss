@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+  .Header {
+    height: 80px;
+
+    @media (max-width: 360px) {
+      height: 200px;
+    }
+  }
+
+  .Footer {
+    height: 60px;
+    position: relative;
+  }
+}

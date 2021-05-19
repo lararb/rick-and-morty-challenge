@@ -1,0 +1,90 @@
+.ItemContainer {
+  list-style: none;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  margin: 15px;
+
+  .ItemImg {
+    width: 200px;
+    border-radius: 7px;
+  }
+
+  .ItemInfo {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+
+
+    &.ItemSpeciesInfoContainer {
+      display: flex;
+      align-items: center;
+    }
+
+    .ItemText {
+      margin: 5px 0;
+      font-size: 13px;
+      text-align: left;
+
+      &.Title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      &.Clickable {
+        cursor: pointer;
+        &:hover {
+          font-weight: bold;
+        }
+      }
+
+      &.Small {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+      }
+
+      &.Bold {
+        display: flex;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+
+      & span {
+        margin: 0 3px;
+      }
+
+      &:last-child {
+        margin-top: 5px;
+      }
+
+      .ItemIcon {
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+      }
+
+      }
+  }
+
+  .ItemButton {
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 7px;
+    margin-bottom: 20px;
+
+    &:hover {
+      background-color: #24282f;
+      border: none;
+      color: #cd7fb5;
+      font-weight: bold;
+    }
+  }
+}
